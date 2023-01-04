@@ -1,0 +1,13 @@
+GET  http://localhost:5000/todos
+###
+POST http://localhost:5000/todo/new 
+Content-Type: application/json
+
+{
+"text": "don no1 "
+}
+###
+DELETE  http://localhost:5000/todo/delete/63b07a6fd0c08684a159b78a
+
+###
+PUT http://localhost:5000/todo/complete/63b07b314466efaf9c5c710b
